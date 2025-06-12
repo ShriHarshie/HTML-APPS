@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="">
+    <table cellspacing="15px" cellpadding="5px">
+        <tr>
+            <td>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="firstname">
+            </td>
+            <td>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lastname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">Birthday</label><br>
+                <input type="date" id="dob" name="birthday">
+            </td>
+            <td>
+                <label>Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email">
+            </td>
+            <td>
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" name="phone">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="subject">Subject</label><br>
+                <select name="subject" id="subject">
+                    <option value="Select Subject" colspan="4">Choose option</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="left">
+                <input type="submit" value="Submit">
+                </td>
+        </tr>
+         </table>
+    </form>
+   
+</body>
+</html>
